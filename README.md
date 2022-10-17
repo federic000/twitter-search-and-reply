@@ -8,11 +8,11 @@ a simple twitter bot for searching a string (one ore more) and reply to those tw
    3a) uploads an image (this uses V1.1 API's with chunked payload, elevated access required) and...
    3b) ...replies with a quote from a txt file stored under a local directory 
    3c) tweet id's are eventually stored in another file (old_ids.txt) to avoid a) multiple replies to the same tweet and b) to avoid self-replies. 
-   
-it normally runs from crontab (run_script_post and _retrieve.sh).
 
-the number of tweet id's varies from 10 to 100 as per Twitter API V2 and it's configurable in tweet_retrieve.py. 
-
-format of image files is today xy_gif.gif where xy is a number between 00 and 99. This allows for random selection of image to be uploaded and posted.  
-format of quote file is simple text as in quote_001.txt example. 
+Some more details: 
+a) it normally runs from crontab with shell scripts (run_script_post and _retrieve.sh).
+b) the number of tweet id's varies from 10 to 100 as per Twitter API V2 and it's configurable in tweet_retrieve.py. 
+c) format of image files is today xy_gif.gif (or xy_png.png) where xy is a number between 00 and 99. This allows for random selection of image to be uploaded and posted. 
+d) format of quote file is simple text as in quote_001.txt example (quote is also randomly chosen)
+e) "logs" directory is hidden by .gitignore but shall be there. 
 
