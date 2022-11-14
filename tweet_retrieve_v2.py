@@ -36,7 +36,7 @@ def tweet_id_retrieve():
     #writes a file new_ids.txt with recent tweets (no retweets) containing the keywords
     #the function has been enhanced to avoid replies to those tweets where the username includes the search keywords
     #it also check if it's a legit tweeet to be replied (this is because Twitter API v2 does not allow searching with Regexp's) 
-    #as usual, regexp strings can be improvoved...
+    #as usual, regexp strings can be improved...
     json_response = connect_to_endpoint(search_url, query_params)
     with open("new_ids.txt", 'w') as f:
          results = int(json_response.get('meta').get('result_count'))
