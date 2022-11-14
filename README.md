@@ -15,4 +15,5 @@ Some more details:
 3. the format of image files is today xy_gif.gif (or xy_png.png) where xy is a number between 00 and 99. This allows for random selection of image to be uploaded and posted. 
 4. format of quote file is simple text as in quote_001.txt example (quote is also randomly chosen)
 5. "logs" directory is hidden by .gitignore but shall be there. 
+6. a new retrieve_v2 script has been added, this has a better refined search method
 
