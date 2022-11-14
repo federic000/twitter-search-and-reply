@@ -1,4 +1,4 @@
-# twitter-search-and-reply
+## twitter-search-and-reply
 
 a simple twitter bot for searching a string (one ore more) and reply to those tweet id's.
 
