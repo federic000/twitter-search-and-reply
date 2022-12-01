@@ -1,6 +1,6 @@
 # twitter-search-and-reply
 
-## a simple twitter bot for searching a string (one ore more) and reply to those tweet id's.
+## a simple twitter bot for searching a string (one or more) and reply to those tweet id's.
 
 1. tweet_retrieve.py searches for one or more keywords using the Twitter v2 API (recent searches, bearer token required). 
 2. the tweet id's out of the search results are stored in a text file named new_ids.txt 
