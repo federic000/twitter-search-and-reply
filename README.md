@@ -1,5 +1,8 @@
 # twitter-search-and-reply
 
+update: added tweet_post_v2.py script, compared to vanilla version the tweet text is built with OPEN AI. 
+you can edit the script to make GPTv3 creating sentences of any kind. 
+
 ## a simple twitter bot for searching a string (one or more) and reply to those tweet id's.
 
 1. tweet_retrieve.py searches for one or more keywords using the Twitter v2 API (recent searches, bearer token required). 
@@ -16,4 +19,5 @@ Some more details:
 4. Format of quote file is simple text as in quote_001.txt example (quote is also randomly chosen)
 5. The "logs" directory is hidden by .gitignore but shall be there. 
 6. A new retrieve_v2 script has been added, this has a better refined search method
+7. A new tweet_post_v2 script has been added, implements OPEN AI generated text. 
 
