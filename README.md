@@ -1,7 +1,7 @@
 # twitter-search-and-reply
 
 update: added tweet_post_v2.py script, compared to vanilla version the tweet text is built with OPEN AI. 
-you can edit the script to make GPTv3 creating sentences of any kind. 
+You can edit the script to make [GPT-3](https://beta.openai.com/docs/api-reference/making-requests) creating sentences of any kind. 
 
 ## a simple twitter bot for searching a string (one or more) and reply to those tweet id's.
 
